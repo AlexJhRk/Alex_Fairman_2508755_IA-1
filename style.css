@@ -1,0 +1,224 @@
+.Title{
+    padding: 4px;
+    margin: 0;
+    width: 100%;
+}
+
+
+#programTitle{
+    float: right;
+    color: red;
+}
+
+#navbar{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    /*padding-top: 1px;*/
+    text-align: end;
+}
+
+#profileImg{
+    border-radius: 20%;
+    height: 230px;
+    width: 200px;
+    float: right;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.navbar{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+ li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+li a:hover{
+    color: red;
+    font-size: large;
+}
+
+body{
+    background-color: bisque;
+}
+
+#navbarText{
+    font-size: xx-small;
+    color: red;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.form{
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    width: 49%;
+    text-align: center;
+}
+.textStart{
+    text-align: left;
+}
+
+.viewpoint{
+     width: 80%;
+    margin: auto;
+ }
+
+@media screen and (min-width: 2000px){
+    .viewpoint{
+        width: 1%;
+        height: 1%;
+    }
+    nav{
+        font-size: 35px;
+    }
+    .form{
+        margin: 20px auto;
+        background-color: antiquewhite;
+        padding: 20px;
+        border-radius: 10px;
+        width: 55%;
+        text-align: center;
+    }
+    #navbarText{
+        font-size: large;
+    }
+    h1{
+        font-size: xxx-large;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size: xx-large;
+    };
+}
+
+@media screen and (max-width: 1000px){
+    .viewpoint{
+        width: 1%;
+        height: 1%;
+    }
+    nav{
+        font-size: 14px;
+    }
+    .form{
+        margin: 20px auto;
+        background-color: antiquewhite;
+        padding: 20px;
+        border-radius: 10px;
+        width: 75%;
+        text-align: center;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size: large;
+    };
+}
+
+@media screen and (max-width: 600px){
+    .viewpoint{
+        width: 1%;
+        height: 1%;
+    }
+    nav{
+        font-size: 11px;
+    }
+    .form{
+        margin: 20px auto;
+        background-color: antiquewhite;
+        padding: 20px;
+        border-radius: 10px;
+        width: 85%;
+        text-align: center;
+    }
+    #navbarText{
+        font-size: xx-small;
+    }
+    h1{
+        font-size: larger;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size: small;
+    };
+}
+
+@media screen and (max-width: 400px){
+    .viewpoint{
+        width: 1%;
+        height: 1%;
+    }
+    nav{
+        font-size: 10px;
+    }
+    #navbarText{
+        font-size: 7px;
+    }
+    #profileImg{
+        height: 180px;
+        width: 150px;
+    }
+
+    h1{
+        font-size: larger;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size: small;
+    };
+}
+
+@media screen and (max-width: 356px){
+    .viewpoint{
+        width: 1%;
+    }
+    nav{
+        font-size: 8px;
+    }
+    #navbarText{
+        font-size: 6px;
+    }
+    h1{
+        font-size: larger;
+    }
+    h2,h3,h4,h5,h6,p{
+        font-size: small;
+    };
+}
+
+h2, h3, h4, h5, h6{
+    font-family: Tahoma;
+}
+
+p, h1{
+    font-family: "Times New Roman";
+}
+
+footer{
+    padding: 12px;
+    height: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
